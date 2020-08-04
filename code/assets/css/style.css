@@ -1,0 +1,179 @@
+/* Custom CSS */
+
+/* CRUD Page*/
+.index-container {
+  margin-top: 20%;
+}
+.section_title { padding-top: 60px; border-bottom: 2px solid #000;}
+
+/*Forms*/
+form { padding-bottom: 60px; }
+
+/*Tab Section*/
+.tab_row img { width: 45px; }
+
+/*Tab Slide Section*/
+.tab_slide_row img { width:100%; }
+
+/*Web View*/
+.wpoets-web-view {
+  background-color: #10324D;
+  color: #9EA5B0;
+  min-height: 800px;
+}
+
+.wpoets-web-view .page_title { color: #FEFFFD; margin-top: 12%;  }
+.wpoets-web-view .page_description { margin: 3% 0; }
+
+.wpoets-web-view .custom-section {
+  height: 412px;
+}
+
+.custom-tabs-container { background: #f6f6f6; }
+.custom-tabs-container .flex-column { justify-content: center; }
+
+.custom-slider-container { background: #63B4C9; }
+.custom-slider-container .carousel-indicators { margin-left: 20%; justify-content: left;  }
+.carousel-indicators li {
+  width: 9px;
+  height: 9px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-right:8px;
+}
+
+.custom-slider-container .carousel-caption { top: 20%; left: 0; width: 412px;  }
+.custom-slider-container .carousel-caption h5 {
+  background: #5D9FAD;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline-block;
+  padding: 4px;
+}
+.custom-slider-container .carousel-caption p {
+  width: 90%;
+  line-height: 36px;
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+.tab_icon { width: 20%; margin-right: 8px; }
+.pointer_icon {
+  display: none;
+}
+.nav-pills a {
+  display: inline-block;
+  height: 70px;
+  background: #FFF;
+  padding: 4%;
+  margin: 6%;
+  color: #373D40;
+  font-weight: bold;
+}
+.nav-pills a.active {
+ position: relative;
+ box-shadow:0px 3px 10px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-pills a.active .pointer_icon {
+  height: 70px;
+  position: absolute;
+  top: 0;
+  right: -22px;
+  display: block;
+}
+.carousel-item img {
+  float: right;
+  width: 412px;
+  height: 412px;
+}
+
+.custom-slider-container .carousel-caption .more {
+  color: #fff;
+  font-size: 1em;
+  margin-top: 16px;
+}
+.custom-slider-container .carousel-caption .more svg {
+  font-size: 1.5em;
+}
+/*Mobile-view*/
+.wpoets-mobile-view {
+  background-color: #10324D;
+  min-height: 900px;
+  color: #9EA5B0;
+}
+
+.wpoets-mobile-view .page_title {
+  margin-top: 12%;
+}
+.wpoets-mobile-view .page_description {
+  margin: 5% 0 10%;
+}
+
+.accordion_tab {
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #3C4346;
+  font-size:1.3em;
+  margin-bottom: 15px;
+  position: relative;
+}
+.accordion_tab img {
+  margin-right: 20px;
+}
+.accordion .collapse {
+  margin: 20px 0 15px;
+  background-color: #5DA6B9;
+}
+.accordion .collapse img {
+  opacity:0.1;
+}
+.accordion [aria-expanded='true'] .pointer_icon {
+  position: absolute;
+  bottom:-22px;
+  display:block;
+  left:0;
+  width: 100%;
+  opacity: 1;
+}
+.accordion i {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 38%;
+  right: 5%;
+}
+.accordion [aria-expanded='true'] i {
+  background: #fff url(../icons/minus.svg) no-repeat center center;
+}
+.accordion [aria-expanded='false'] i {
+  background: #fff url(../icons/plus.svg) no-repeat center center;
+}
+.accordion .carousel-item { height: 300px; }
+.accordion .carousel-caption {
+  left: 0;
+  right: 0;
+  top: 10px;
+  bottom: 0;
+}
+.accordion .carousel-caption h5 {
+  background: #518FA1;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline-block;
+  padding: 4px;
+}
+.accordion .carousel-caption p {
+  line-height: 30px;
+  font-size: 1.6em;
+  margin: 0 auto;
+}
+.accordion .carousel-caption .more {
+  color: #fff;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+.accordion .carousel-caption .more svg {
+  font-size: 1.5em;
+}
